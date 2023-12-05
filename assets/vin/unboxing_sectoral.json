@@ -2,21 +2,21 @@
   "message": "Successfully retrieved academy data",
   "data": [
     {
-      "id": 207,
-      "title": "Sektor Perbankan ",
-      "description": "Mayoritas emiten bank membukukan pertumbuhan laba bersih tahunan double digit dan mencapai level tertingginya sepanjang sejarah (all time high) pada 2022. Realisasi tersebut juga terefleksikan pada harga saham emiten yang sebagian besar juga naik double digit, di luar dari dividen yang didapatkan investor.\n\nPerforma positif tersebut berlanjut pada 1Q23, di mana beberapa emiten bank masih melanjutkan pertumbuhan kinerja keuangan. Di sisi lain, mulai terlihat perlambatan pertumbuhan secara industri sejak 2023, yang ditandai dengan pelemahan pertumbuhan kredit, NII, dan NIM secara QoQ.\n\nBagaimana potensi sektor perbankan ke depannya di tengah risiko mengetatnya likuiditas dan tren pelemahan pertumbuhan kredit? Simak selengkapnya di Unboxing Sektor Perbankan berikut ini!\n",
-      "volume": 23,
-      "date": "2023-06-30T17:00:00Z",
-      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/49f1929c-752d-4c87-970f-b5f5d714a1c5.jpg",
+      "id": 3,
+      "title": "Sektor Kesehatan",
+      "description": "Pandemi Covid-19 mendorong kinerja emiten rumah sakit dalam jangka pendek. Dalam jangka panjang, kinerja akan lebih ditentukan oleh peningkatan kapasitas dan kualitas layanan, misalnya melalui aksi merger atau akuisisi. Hal ini guna menjawab pertumbuhan demand layanan kesehatan seiring pertumbuhan jumlah populasi dan peningkatan jumlah penduduk berpendapatan menengah.",
+      "volume": 2,
+      "date": "2022-01-31T17:00:00Z",
+      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/522b64fc-c568-45ca-bae9-2e966cbcd0a6.jpg",
       "status": "CONTENT_STATUS_PUBLISH",
       "files": [
 
       ],
-      "created_at": "2023-06-13T07:48:53.405409Z",
-      "updated_at": "2023-06-13T07:49:02.712450Z",
-      "date_display": "June 2023",
+      "created_at": "2022-03-02T13:16:49.942309Z",
+      "updated_at": "2022-10-25T07:58:01.777286Z",
+      "date_display": "January 2022",
       "category": "UNBOXING_CATEGORY_SECTOR",
-      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/9496bb76-fad0-4119-adcd-e8251549ea51.jpg",
+      "compressed_thumbnail_url": "",
       "description_masked": "",
       "masks": [
 
@@ -25,44 +25,21 @@
       "image_url_wide": ""
     },
     {
-      "id": 206,
-      "title": "Unboxing Dairy ",
-      "description": "Dalam 3 tahun terakhir, beberapa private equity global masuk menjadi pemegang saham perusahaan produk susu (dairy) di Indonesia. General Atlantic membeli 5,64% saham $CMRY, Pelican Company Ltd. membeli 18,13% saham $KEJU, sementara TPG dan Northstar mengakuisisi 80% saham produsen susu Greenfields.\n\nSektor dairy di Indonesia memang cukup menarik. Secara valuasi, P/E Ratio emiten dairy di Indonesia masih berada di bawah rata-rata pemain dairy global yang mencapai 45,8x.\n\nTren konsumsi susu di Indonesia terus meningkat dengan rata-rata pertumbuhan CAGR dalam 21 tahun sebesar +6%. Tingkat konsumsi susu di Indonesia juga masih lebih rendah dibandingkan dengan peers di global dan regional, sehingga potensi pertumbuhannya masih cukup besar. Di sisi lain, sebagian besar bahan baku susu masih diimpor karena produksi susu segar di Indonesia hanya mampu mencukupi 22% dari kebutuhan nasional.\n\nDengan berbagai peluang dan tantangan tersebut, bagaimana prospek emiten dairy di Indonesia? Simak selengkapnya di Unboxing Sektor Dairy berikut ini!",
-      "volume": 22,
-      "date": "2023-05-31T17:00:00Z",
-      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/614980dd-37e2-4620-ad53-1763a7da0113.jpg",
+      "id": 34,
+      "title": "Sektor Menara Telekomunikasi",
+      "description": "Tumbuhnya penggunaan internet dan data memberikan dampak positif terhadap bisnis menara telekomunikasi dan telekomunikasi. Dalam menyambut tren ini, emiten menara telekomunikasi menambah menara mereka baik secara organik maupun via akuisisi untuk menguasai pangsa pasar. Selain penggunaan internet dan data yang meningkat, peluncuran jaringan 5G dalam waktu dekat juga berpotensi meningkatkan kebutuhan akan menara telekomunikasi.",
+      "volume": 1,
+      "date": "2021-12-31T17:00:00Z",
+      "thumbnail_url": "http://feylabs.my.id/fm/dummy/snip/unboxing_menara.png",
       "status": "CONTENT_STATUS_PUBLISH",
       "files": [
 
       ],
-      "created_at": "2023-05-31T09:40:36.409244Z",
-      "updated_at": "2023-06-14T04:09:54.031357Z",
-      "date_display": "May 2023",
+      "created_at": "2022-03-08T04:02:39.306941Z",
+      "updated_at": "2022-10-25T07:57:53.615204Z",
+      "date_display": "December 2021",
       "category": "UNBOXING_CATEGORY_SECTOR",
-      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/36931999-ae4f-42fc-9433-2eb7d845586d.jpg",
-      "description_masked": "",
-      "masks": [
-
-      ],
-      "image_url_full": "",
-      "image_url_wide": ""
-    },
-    {
-      "id": 205,
-      "title": "Unboxing Konglomerasi Indonesia ",
-      "description": "Sejumlah konglomerat di Indonesia memiliki kontribusi yang besar bagi IHSG. Per Mei 2023, 10 grup konglomerat terbesar di Indonesia memiliki lebih dari 100 emiten di IHSG, yang merepresentasikan lebih dari 30% market cap bursa.\nSebagai investor, analisis manajemen dan pemegang saham adalah hal yang penting untuk dilakukan. Oleh karena itu, Stockbit menyusun laporan Unboxing Konglomerasi Indonesia yang mengulas kepemilikan saham dan overview bisnis dari 10 konglomerasi terbesar di Indonesia.\n\nGrup konglomerat yang dibahas dalam laporan ini terdiri dari grup Salim, Djarum, Sinarmas, Astra, Emtek, MNC, Bakrie, Triputra, Tancorp, hingga Lippo. Tak hanya itu, laporan ini juga membahas mitra dan afiliasi utama kesepuluh grup tersebut, beberapa aksi korporasi terkini dari emiten yang mereka miliki, hingga lini bisnis yang ditekuninya – baik itu perusahaan privat atau publik di dalam dan luar negeri.\n\nLaporan ini juga membahas tentang perbandingan performa antara masing-masing grup bisnis, mulai dari segi total market cap, hingga performa (median) bisnis dari emiten yang dimiliki kesepuluh grup tersebut. Untuk pembahasan selengkapnya, simak Unboxing Konglomerasi Indonesia berikut ini!",
-      "volume": 21,
-      "date": "2023-04-30T17:00:00Z",
-      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/8fa9519f-ee2b-4aec-8c02-98665e3caa1e.jpg",
-      "status": "CONTENT_STATUS_PUBLISH",
-      "files": [
-
-      ],
-      "created_at": "2023-05-26T07:52:02.009636Z",
-      "updated_at": "2023-05-26T07:52:16.997893Z",
-      "date_display": "April 2023",
-      "category": "UNBOXING_CATEGORY_SECTOR",
-      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/fde9bc62-9cb4-48e6-aaf6-d521dae44970.jpg",
+      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/8b52dfe2-2781-4451-9a92-23532d9f9da1.jpg",
       "description_masked": "",
       "masks": [
 
@@ -156,6 +133,75 @@
       "date_display": "January 2023",
       "category": "UNBOXING_CATEGORY_SECTOR",
       "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/c4d12c72-d222-4563-b90b-eb71c036cc31.jpg",
+      "description_masked": "",
+      "masks": [
+
+      ],
+      "image_url_full": "",
+      "image_url_wide": ""
+    },
+    {
+      "id": 207,
+      "title": "Sektor Perbankan ",
+      "description": "Mayoritas emiten bank membukukan pertumbuhan laba bersih tahunan double digit dan mencapai level tertingginya sepanjang sejarah (all time high) pada 2022. Realisasi tersebut juga terefleksikan pada harga saham emiten yang sebagian besar juga naik double digit, di luar dari dividen yang didapatkan investor.\n\nPerforma positif tersebut berlanjut pada 1Q23, di mana beberapa emiten bank masih melanjutkan pertumbuhan kinerja keuangan. Di sisi lain, mulai terlihat perlambatan pertumbuhan secara industri sejak 2023, yang ditandai dengan pelemahan pertumbuhan kredit, NII, dan NIM secara QoQ.\n\nBagaimana potensi sektor perbankan ke depannya di tengah risiko mengetatnya likuiditas dan tren pelemahan pertumbuhan kredit? Simak selengkapnya di Unboxing Sektor Perbankan berikut ini!\n",
+      "volume": 23,
+      "date": "2023-06-30T17:00:00Z",
+      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/49f1929c-752d-4c87-970f-b5f5d714a1c5.jpg",
+      "status": "CONTENT_STATUS_PUBLISH",
+      "files": [
+
+      ],
+      "created_at": "2023-06-13T07:48:53.405409Z",
+      "updated_at": "2023-06-13T07:49:02.712450Z",
+      "date_display": "June 2023",
+      "category": "UNBOXING_CATEGORY_SECTOR",
+      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/9496bb76-fad0-4119-adcd-e8251549ea51.jpg",
+      "description_masked": "",
+      "masks": [
+
+      ],
+      "image_url_full": "",
+      "image_url_wide": ""
+    },
+    {
+      "id": 206,
+      "title": "Unboxing Dairy ",
+      "description": "Dalam 3 tahun terakhir, beberapa private equity global masuk menjadi pemegang saham perusahaan produk susu (dairy) di Indonesia. General Atlantic membeli 5,64% saham $CMRY, Pelican Company Ltd. membeli 18,13% saham $KEJU, sementara TPG dan Northstar mengakuisisi 80% saham produsen susu Greenfields.\n\nSektor dairy di Indonesia memang cukup menarik. Secara valuasi, P/E Ratio emiten dairy di Indonesia masih berada di bawah rata-rata pemain dairy global yang mencapai 45,8x.\n\nTren konsumsi susu di Indonesia terus meningkat dengan rata-rata pertumbuhan CAGR dalam 21 tahun sebesar +6%. Tingkat konsumsi susu di Indonesia juga masih lebih rendah dibandingkan dengan peers di global dan regional, sehingga potensi pertumbuhannya masih cukup besar. Di sisi lain, sebagian besar bahan baku susu masih diimpor karena produksi susu segar di Indonesia hanya mampu mencukupi 22% dari kebutuhan nasional.\n\nDengan berbagai peluang dan tantangan tersebut, bagaimana prospek emiten dairy di Indonesia? Simak selengkapnya di Unboxing Sektor Dairy berikut ini!",
+      "volume": 22,
+      "date": "2023-05-31T17:00:00Z",
+      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/614980dd-37e2-4620-ad53-1763a7da0113.jpg",
+      "status": "CONTENT_STATUS_PUBLISH",
+      "files": [
+
+      ],
+      "created_at": "2023-05-31T09:40:36.409244Z",
+      "updated_at": "2023-06-14T04:09:54.031357Z",
+      "date_display": "May 2023",
+      "category": "UNBOXING_CATEGORY_SECTOR",
+      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/36931999-ae4f-42fc-9433-2eb7d845586d.jpg",
+      "description_masked": "",
+      "masks": [
+
+      ],
+      "image_url_full": "",
+      "image_url_wide": ""
+    },
+    {
+      "id": 205,
+      "title": "Unboxing Konglomerasi",
+      "description": "Sejumlah konglomerat di Indonesia memiliki kontribusi yang besar bagi IHSG. Per Mei 2023, 10 grup konglomerat terbesar di Indonesia memiliki lebih dari 100 emiten di IHSG, yang merepresentasikan lebih dari 30% market cap bursa.\nSebagai investor, analisis manajemen dan pemegang saham adalah hal yang penting untuk dilakukan. Oleh karena itu, Stockbit menyusun laporan Unboxing Konglomerasi Indonesia yang mengulas kepemilikan saham dan overview bisnis dari 10 konglomerasi terbesar di Indonesia.\n\nGrup konglomerat yang dibahas dalam laporan ini terdiri dari grup Salim, Djarum, Sinarmas, Astra, Emtek, MNC, Bakrie, Triputra, Tancorp, hingga Lippo. Tak hanya itu, laporan ini juga membahas mitra dan afiliasi utama kesepuluh grup tersebut, beberapa aksi korporasi terkini dari emiten yang mereka miliki, hingga lini bisnis yang ditekuninya – baik itu perusahaan privat atau publik di dalam dan luar negeri.\n\nLaporan ini juga membahas tentang perbandingan performa antara masing-masing grup bisnis, mulai dari segi total market cap, hingga performa (median) bisnis dari emiten yang dimiliki kesepuluh grup tersebut. Untuk pembahasan selengkapnya, simak Unboxing Konglomerasi Indonesia berikut ini!",
+      "volume": 21,
+      "date": "2023-04-30T17:00:00Z",
+      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/8fa9519f-ee2b-4aec-8c02-98665e3caa1e.jpg",
+      "status": "CONTENT_STATUS_PUBLISH",
+      "files": [
+
+      ],
+      "created_at": "2023-05-26T07:52:02.009636Z",
+      "updated_at": "2023-05-26T07:52:16.997893Z",
+      "date_display": "April 2023",
+      "category": "UNBOXING_CATEGORY_SECTOR",
+      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/fde9bc62-9cb4-48e6-aaf6-d521dae44970.jpg",
       "description_masked": "",
       "masks": [
 
@@ -340,52 +386,6 @@
       "date_display": "February 2022",
       "category": "UNBOXING_CATEGORY_SECTOR",
       "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/33d40cf2-d49b-4c34-8b58-ec7e7027a34d.jpg",
-      "description_masked": "",
-      "masks": [
-
-      ],
-      "image_url_full": "",
-      "image_url_wide": ""
-    },
-    {
-      "id": 3,
-      "title": "Sektor Kesehatan",
-      "description": "Pandemi Covid-19 mendorong kinerja emiten rumah sakit dalam jangka pendek. Dalam jangka panjang, kinerja akan lebih ditentukan oleh peningkatan kapasitas dan kualitas layanan, misalnya melalui aksi merger atau akuisisi. Hal ini guna menjawab pertumbuhan demand layanan kesehatan seiring pertumbuhan jumlah populasi dan peningkatan jumlah penduduk berpendapatan menengah.",
-      "volume": 2,
-      "date": "2022-01-31T17:00:00Z",
-      "thumbnail_url": "https://academy-content.stockbit.com/uploaded-images/522b64fc-c568-45ca-bae9-2e966cbcd0a6.jpg",
-      "status": "CONTENT_STATUS_PUBLISH",
-      "files": [
-
-      ],
-      "created_at": "2022-03-02T13:16:49.942309Z",
-      "updated_at": "2022-10-25T07:58:01.777286Z",
-      "date_display": "January 2022",
-      "category": "UNBOXING_CATEGORY_SECTOR",
-      "compressed_thumbnail_url": "",
-      "description_masked": "",
-      "masks": [
-
-      ],
-      "image_url_full": "",
-      "image_url_wide": ""
-    },
-    {
-      "id": 34,
-      "title": "Sektor Menara Telekomunikasi",
-      "description": "Tumbuhnya penggunaan internet dan data memberikan dampak positif terhadap bisnis menara telekomunikasi dan telekomunikasi. Dalam menyambut tren ini, emiten menara telekomunikasi menambah menara mereka baik secara organik maupun via akuisisi untuk menguasai pangsa pasar. Selain penggunaan internet dan data yang meningkat, peluncuran jaringan 5G dalam waktu dekat juga berpotensi meningkatkan kebutuhan akan menara telekomunikasi.",
-      "volume": 1,
-      "date": "2021-12-31T17:00:00Z",
-      "thumbnail_url": "http://feylabs.my.id/fm/dummy/snip/unboxing_menara.png",
-      "status": "CONTENT_STATUS_PUBLISH",
-      "files": [
-
-      ],
-      "created_at": "2022-03-08T04:02:39.306941Z",
-      "updated_at": "2022-10-25T07:57:53.615204Z",
-      "date_display": "December 2021",
-      "category": "UNBOXING_CATEGORY_SECTOR",
-      "compressed_thumbnail_url": "https://academy-content.stockbit.com/unboxing/8b52dfe2-2781-4451-9a92-23532d9f9da1.jpg",
       "description_masked": "",
       "masks": [
 
