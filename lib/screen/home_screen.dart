@@ -45,7 +45,6 @@ class _HomeScreenState extends State<HomeScreen> {
       snipUiList;
       sectoralUiList;
       stockUiList;
-      print("seefefe $snipUiList");
     });
   }
 
@@ -53,10 +52,20 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          "Vinansia",
-          style: GoogleFonts.poppins().copyWith(),
+        title: Container(
+          margin: const EdgeInsets.all(18.0),
+          child: Image.network(
+              "https://vinansia.feylabs.my.id/wp-content/uploads/2023/12/vinansia_icon.png",width: 200,),
         ),
+        centerTitle: true, // Center the title
+        actions: [
+          IconButton(
+            icon: Icon(Icons.add), // Your icon goes here
+            onPressed: () {
+              // Handle icon tap
+            },
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Column(
