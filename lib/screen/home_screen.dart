@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:vinansia_lite/helper/generate_data.dart';
-import 'package:vinansia_lite/widget/snip_item_widget.dart';
-import 'package:vinansia_lite/widget/unboxing_item_widget.dart';
+import 'package:vinansia_lite/data/generate_data.dart';
+import 'package:vinansia_lite/data/snip_response_dto.dart';
+import 'package:vinansia_lite/data/unboxing_sectoral_response_dto.dart';
+import 'package:vinansia_lite/widget/sectoral_section_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -11,12 +12,34 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<SnipResponseItemDto> snipUiList = [];
+  List<UnboxingSectoralResponseItemDto> stockUiList = [];
+  List<UnboxingSectoralResponseItemDto> sectoralUiList = [];
 
   @override
   void initState() {
-    loadSnipData();
-    // TODO: implement initState
     super.initState();
+    _initializeData();
+  }
+
+  Future<void> _initializeData() async {
+    var responseSnip = await loadSnipData();
+    var responseSectoral = await loadSectoralData();
+    var responseStock = await loadStockData();
+
+    responseSnip.data?.forEach((element) {
+      snipUiList.add(element);
+    });
+    responseSectoral.data?.forEach((element) {
+      sectoralUiList.add(element);
+    });
+    responseStock.data?.forEach((element) {
+      stockUiList.add(element);
+    });
+
+    setState(() {
+      snipUiList;
+    });
   }
 
   @override
@@ -27,20 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Column(
         children: [
-          Container(
-            height: 200,
-            child: ListView(
-              // This next line does the trick.
-              scrollDirection: Axis.horizontal,
-              children: <Widget>[
-                UnboxingItemWidget(color: Colors.red,),
-                UnboxingItemWidget(color: Colors.blue,),
-                UnboxingItemWidget(color: Colors.green,),
-                UnboxingItemWidget(color: Colors.yellow,),
-                UnboxingItemWidget(color: Colors.orange,),
-              ],
-            ),
-          ),
+          SectoralSectionWidget(datas: sectoralUiList),
         ],
       ),
     );
