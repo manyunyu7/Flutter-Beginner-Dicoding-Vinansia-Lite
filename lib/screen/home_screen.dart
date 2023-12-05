@@ -3,6 +3,7 @@ import 'package:vinansia_lite/data/generate_data.dart';
 import 'package:vinansia_lite/data/snip_response_dto.dart';
 import 'package:vinansia_lite/data/unboxing_sectoral_response_dto.dart';
 import 'package:vinansia_lite/widget/sectoral_section_widget.dart';
+import 'package:vinansia_lite/widget/snip_section_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -39,6 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
     setState(() {
       snipUiList;
+      sectoralUiList;
+      stockUiList;
+      print("$snipUiList");
     });
   }
 
@@ -48,10 +52,13 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: Text("Halo Gaes"),
       ),
-      body: Column(
-        children: [
-          SectoralSectionWidget(datas: sectoralUiList),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            SectoralSectionWidget(datas: sectoralUiList),
+            SnipSectionWidget(datas: snipUiList),
+          ],
+        ),
       ),
     );
   }
