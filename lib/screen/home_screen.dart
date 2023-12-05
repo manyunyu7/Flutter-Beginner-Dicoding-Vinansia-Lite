@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vinansia_lite/data/generate_data.dart';
 import 'package:vinansia_lite/data/snip_response_dto.dart';
 import 'package:vinansia_lite/data/unboxing_sectoral_response_dto.dart';
+import 'package:vinansia_lite/data/unboxing_stock_response_dto.dart';
 import 'package:vinansia_lite/widget/sectoral_section_widget.dart';
 import 'package:vinansia_lite/widget/snip_section_widget.dart';
+import 'package:vinansia_lite/widget/stock_section_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,7 +17,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   List<SnipResponseItemDto> snipUiList = [];
-  List<UnboxingSectoralResponseItemDto> stockUiList = [];
+  List<UnboxingStockResponseItemDto> stockUiList = [];
   List<UnboxingSectoralResponseItemDto> sectoralUiList = [];
 
   @override
@@ -42,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
       snipUiList;
       sectoralUiList;
       stockUiList;
-      print("$snipUiList");
+      print("seefefe $snipUiList");
     });
   }
 
@@ -50,13 +53,17 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Halo Gaes"),
+        title: Text(
+          "Vinansia",
+          style: GoogleFonts.poppins().copyWith(),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
           children: [
             SectoralSectionWidget(datas: sectoralUiList),
             SnipSectionWidget(datas: snipUiList),
+            StockSectionWidget(datas: stockUiList),
           ],
         ),
       ),

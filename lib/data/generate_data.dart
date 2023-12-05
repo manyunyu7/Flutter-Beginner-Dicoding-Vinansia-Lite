@@ -6,9 +6,10 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:vinansia_lite/data/snip_response_dto.dart';
 import 'package:vinansia_lite/data/unboxing_sectoral_response_dto.dart';
+import 'package:vinansia_lite/data/unboxing_stock_response_dto.dart';
 
 
-Future<UnboxingSectoralResponseDto> loadStockData() async {
+Future<UnboxingStockResponseDto> loadStockData() async {
   // Load JSON data from the asset file
   final String data = await rootBundle.loadString('assets/vin/unboxing_stock.json');
 
@@ -16,7 +17,7 @@ Future<UnboxingSectoralResponseDto> loadStockData() async {
   final jsonData = json.decode(data);
   print(jsonData);
   // Assuming SnipItemDto has a factory constructor named 'fromJson'
-  return UnboxingSectoralResponseDto.fromJson(jsonData);
+  return UnboxingStockResponseDto.fromJson(jsonData);
 }
 
 

@@ -21,10 +21,10 @@ class SnipSectionWidget extends StatelessWidget {
     });
 
     return Container(
-      height: 1230,
       child: ListView(
-        // This next line does the trick.
+        shrinkWrap: true,
         scrollDirection: Axis.vertical,
+        physics: NeverScrollableScrollPhysics(),
         children: <Widget>[
           Container(
             margin: EdgeInsets.only(left: 10,right: 10,top: 20,bottom: 18),
