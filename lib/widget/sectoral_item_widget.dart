@@ -15,15 +15,16 @@ class SectoralItemWidget extends StatelessWidget {
       height: 230,
       width: 200,
       child: Card(
-        color: Color(0xFFFFFFFF),
+        surfaceTintColor: Colors.white,
+        color: const Color(0xFFFFFFFF),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
             Padding(
-              padding: EdgeInsets.only(left: 10, right: 10),
+              padding: const EdgeInsets.only(left: 10, right: 10),
               child: Text(
                 element.title ?? "",
                 style: GoogleFonts.montserrat().copyWith(
@@ -33,15 +34,15 @@ class SectoralItemWidget extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.only(left: 10, right: 10),
+              padding: const EdgeInsets.only(left: 10, right: 10),
               child: Text(element.dateDisplay ?? ""),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Expanded(
               child: ClipRRect(
-                borderRadius: BorderRadius.only(
+                borderRadius: const BorderRadius.only(
                     bottomLeft: Radius.circular(8),
                     bottomRight: Radius.circular(8)),
                 // Adjust the border radius as needed

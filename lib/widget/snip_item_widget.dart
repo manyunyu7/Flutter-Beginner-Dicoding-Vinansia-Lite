@@ -20,6 +20,7 @@ class SnipItemWidget extends StatelessWidget {
       width: 200,
       margin: const EdgeInsets.only(left: 10,right: 10),
       child: Card(
+        surfaceTintColor: Colors.white,
         color: const Color(0xFFFFFFFF),
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.stretch,

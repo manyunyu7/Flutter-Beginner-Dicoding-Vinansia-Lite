@@ -58,22 +58,16 @@ class _HomeScreenState extends State<HomeScreen> {
               "https://vinansia.feylabs.my.id/wp-content/uploads/2023/12/vinansia_icon.png",width: 200,),
         ),
         centerTitle: true, // Center the title
-        actions: [
-          IconButton(
-            icon: Icon(Icons.add), // Your icon goes here
-            onPressed: () {
-              // Handle icon tap
-            },
-          ),
-        ],
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            SectoralSectionWidget(datas: sectoralUiList),
-            SnipSectionWidget(datas: snipUiList),
-            StockSectionWidget(datas: stockUiList),
-          ],
+      body: Container(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              SectoralSectionWidget(datas: sectoralUiList),
+              SnipSectionWidget(datas: snipUiList),
+              StockSectionWidget(datas: stockUiList),
+            ],
+          ),
         ),
       ),
     );

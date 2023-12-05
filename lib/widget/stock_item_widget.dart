@@ -14,8 +14,10 @@ class StockItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(bottom: 20,right: 10,left: 10),
       width: 300,
       child: Card(
+        surfaceTintColor: Colors.white,
         color: const Color(0xFFFFFFFF),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
